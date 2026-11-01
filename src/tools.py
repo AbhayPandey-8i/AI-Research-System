@@ -29,6 +29,8 @@ def web_search(query : str) -> str:
 
     return "\n-----------------\n".join(out)   
 
+
+# to extract website data we will use BeautifulSoup
 @tool
 def scrape_url(url: str) -> str:
     """Scrape and return clean text content from a given URL for deeper reading."""
